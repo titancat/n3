@@ -1,0 +1,43 @@
+{
+  "name": "n3",
+  "version": "0.0.1",
+  "description": "D3-based chart library",
+  "main": "n3.js",
+  "files": [
+    "n3.js",
+    "n3.min.js",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "uglify": "uglifyjs n3.js --compress --mangle --comments -o n3.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titancat/n3.git"
+  },
+  "keywords": [
+    "d3",
+    "n3",
+    "chart",
+    "graph"
+  ],
+  "author": "mcattx@gmail.com",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/titancat/n3/issues"
+  },
+  "homepage": "https://github.com/titancat/n3#readme",
+  "dependencies": {
+    "d3": "^5.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "uglify-js": "^3.6.0"
+  }
+}
