@@ -5,7 +5,7 @@ import pkg from './package.json'
 export default {
   input: 'src/index.js',
   output: {
-    file: 'n3.js',
+    file: 'samples/js/n3.js',
     name: 'n3',
     format: 'umd',
     banner: `/* @license n3.js v${pkg.version} | (c) mcattx@gmail.com */`,
